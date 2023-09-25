@@ -38,55 +38,55 @@ def main():
             elif opcion == 1:
               resultado= temperatura.celsius_a_fahrenheit(valorinicial)
               print("El resultado es: ", resultado)
-            elif opcion == 1:
+            elif opcion == 2:
               resultado= temperatura.celsius_a_kelvin(valorinicial)
               print("El resultado es: ", resultado)
-            elif opcion == 1:
+            elif opcion == 3:
               resultado= temperatura.fahrenheit_a_celsius(valorinicial)
               print("El resultado es: ", resultado)
-            elif opcion == 1:
+            elif opcion == 4:
               resultado= temperatura.fahrenheit_a_kelvin(valorinicial)
               print("El resultado es: ", resultado)
-            elif opcion == 1:
+            elif opcion == 5:
               resultado= temperatura.kelvin_a_celsius(valorinicial)
               print("El resultado es: ", resultado)
-            elif opcion == 1:
+            elif opcion == 6:
               resultado= temperatura.kelvin_a_fahrenheit(valorinicial)
               print("El resultado es: ", resultado)
-            elif opcion == 1:
+            elif opcion == 7:
               resultado= masa.kg_a_gr(valorinicial)
               print("El resultado es: ", resultado)
-            elif opcion == 1:
+            elif opcion == 8:
               resultado= masa.kg_a_ton(valorinicial)
               print("El resultado es: ", resultado)
-            elif opcion == 1:
+            elif opcion == 9:
               resultado= masa.gr_a_kg(valorinicial)
               print("El resultado es: ", resultado)
-            elif opcion == 1:
+            elif opcion == 10:
               resultado= masa.gr_a_ton(valorinicial)
               print("El resultado es: ", resultado)
-            elif opcion == 1:
+            elif opcion == 11:
               resultado= masa.ton_a_gr(valorinicial)
               print("El resultado es: ", resultado)
-            elif opcion == 1:
+            elif opcion == 12:
               resultado= masa.ton_a_kg(valorinicial)
               print("El resultado es: ", resultado)
-            elif opcion == 1:
+            elif opcion == 13:
               resultado= tiempo.sec_a_min(valorinicial)
               print("El resultado es: ", resultado)
-            elif opcion == 1:
+            elif opcion == 14:
               resultado= tiempo.sec_a_hr(valorinicial)
               print("El resultado es: ", resultado)
-            elif opcion == 1:
+            elif opcion == 15:
               resultado= tiempo.min_a_sec(valorinicial)
               print("El resultado es: ", resultado)
-            elif opcion == 1:
+            elif opcion == 16:
               resultado= tiempo.min_a_hr(valorinicial)
               print("El resultado es: ", resultado)
-            elif opcion == 1:
+            elif opcion == 17:
               resultado= tiempo.hr_a_sec(valorinicial)
               print("El resultado es: ", resultado)
-            elif opcion == 1:
+            elif opcion == 18:
               resultado= tiempo.hr_a_min(valorinicial)
               print("El resultado es: ", resultado)
 
@@ -97,6 +97,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+    #https://github.com/dimarcosss/conversor_de_unidades
 """2) Módulo masa.py: Este módulo debe contener funciones para convertir entre diferentes unidades de masa, como kilogramos, libras y onzas.(0.5 puntos) """
 """3) Crear el primer versionamiento con git de los dos módulos creados de temperatura y masa (usar git add y git commit ). (0.5 puntos) """
 """4) Crear una nueva rama llamada “desarrollo” y en esta nueva rama agregar los módulos tiempo.py y convertidor.py (recuerda usar git branch ). (0.5 puntos) """
